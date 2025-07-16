@@ -35,7 +35,17 @@ Enjoy the ability to maintain your session for as long as you need (as long as a
 3. Click **Add**, select **PY** as extension type.
 4. Load the python file.
 
-## Requiremetns
-- Requires Jython
+## Development
+This extension is written in Jython for Burp Suite.
 
-![Burp Extension](https://img.shields.io/badge/Burp%20Suite-Extension-orange)
+## Requiremetns
+- Jython 2.7.x
+- Burp Extender API v1.7+
+
+Pull requests welcome.
+
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+![Platform: Burp Suite](https://img.shields.io/badge/Burp%20Suite-Extension-orange)
+![Language: Python](https://img.shields.io/badge/Language-Python%202.7-blue)
+
+This project is licensed under the GNU General Public License v3.0 – see the [LICENSE](LICENSE) file for details.
