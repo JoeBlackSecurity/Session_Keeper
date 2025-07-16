@@ -18,3 +18,6 @@ The top windows shows the current request being sent, the middle window is the r
 You can reset the request history window witht he "Clear Log" button at the top.
 
 Enjoy the ability to maintain your session for as long as you need (as long as a forever session is supported server-side).
+
+
+![Burp Extension](https://img.shields.io/badge/Burp%20Suite-Extension-orange)
