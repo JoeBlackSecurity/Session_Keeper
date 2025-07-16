@@ -3,7 +3,7 @@ Keep your session alive with low-impact requests.
 
 Session Keeper is a quick and easy way to maintain a session in Burp while you perform other actions, step away for a coffee/dinner/shower, or finally go to sleep.
 
-Usage is straight forward. Find a low-impact request. Something like requesting server time, a simple API request, or a ping/pong request if available. 
+Usage is straight forward. Find a low-impact request that has a session you want to keep alive. Something like requesting server time, a simple API request, or a ping/pong request if available. 
 
 Right click the request and under Extensions -> Session Keeper -> Send to Session Keeper.
 
@@ -17,12 +17,19 @@ The top windows shows the current request being sent, the middle window is the r
 
 You can reset the request history window with the "Clear Log" button at the top. 
 
+Session Keeper has its own tabs so you can maintain multiple sessions at the same time.
+
 Enjoy the ability to maintain your session for as long as you need (as long as a forever session is supported server-side).
 
 
 ## Features
 
 - Automatically resend a low-impact request to keep sessions alive
+- Run multiple session keepers simultaneously using a tab-based system
+  - Each tab maintains its own request and interval independently
+  - Tab names are editable for easy identification
+  - Tabs show status indicators: **[RUN]** when active, **[STOP]** when paused
+- Have multiple session keepers running at the same time using the tabs
 - Supports custom intervals and max request limits
 - Shows current request, response, and request history
 - Clear log button to reset history view
