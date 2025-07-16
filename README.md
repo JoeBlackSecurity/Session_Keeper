@@ -29,7 +29,6 @@ Enjoy the ability to maintain your session for as long as you need (as long as a
   - Each tab maintains its own request and interval independently
   - Tab names are editable for easy identification
   - Tabs show status indicators: **[RUN]** when active, **[STOP]** when paused
-- Have multiple session keepers running at the same time using the tabs
 - Supports custom intervals and max request limits
 - Shows current request, response, and request history
 - Clear log button to reset history view
