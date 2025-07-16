@@ -20,4 +20,22 @@ You can reset the request history window witht he "Clear Log" button at the top.
 Enjoy the ability to maintain your session for as long as you need (as long as a forever session is supported server-side).
 
 
+## Features
+
+- Automatically resend a low-impact request to keep sessions alive
+- Supports custom intervals and max request limits
+- Shows current request, response, and request history
+- Clear log button to reset history view
+- Easy UI inside Burp Suite
+
+## Installation
+
+1. Download the python file.
+2. In Burp Suite, go to **Extensions > Installed**.
+3. Click **Add**, select **PY** as extension type.
+4. Load the python file.
+
+## Requiremetns
+- Requires Jython
+
 ![Burp Extension](https://img.shields.io/badge/Burp%20Suite-Extension-orange)
