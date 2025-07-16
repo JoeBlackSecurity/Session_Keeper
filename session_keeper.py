@@ -234,7 +234,7 @@ class BurpExtender(IBurpExtender, ITab, IContextMenuFactory):
 
     def createMenuItems(self, invocation):
         menu = ArrayList()
-        item = JMenuItem("Send to New Session Keeper", actionPerformed=lambda e: self.send_to_new_session(invocation))
+        item = JMenuItem("Send to Session Keeper", actionPerformed=lambda e: self.send_to_new_session(invocation))
         menu.add(item)
         return menu
 
